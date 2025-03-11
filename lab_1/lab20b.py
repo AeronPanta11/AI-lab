@@ -1,0 +1,11 @@
+Graph={
+    "Biratnagar":[{"Itahari":22},{"Biratchowk":30},{"Rangeli":25}],
+    "Itahari":[{"Biratnagar":22},{"Dharan":20},{"Biratchowk":11}],
+    "Dharan":[{"Itahari":20}],
+    "Biratchowk":[{"Itahari":11},{"Biratnagar":30},{"Kanepokhari":10}],
+    "Rangeli":[{"Biratnagar":25},{"Urlabari":40},{"Kanepokhari":25}],
+    "Kanepokhari":[{"Rangeli:25"},{"Urlabari":12}],
+    "Urlabari":[{"Kanepokhari":12},{"Damak":6},{"Rangeli":40}],
+    "Damak":[{"Urlabari":6}]
+}
+print(Graph)
